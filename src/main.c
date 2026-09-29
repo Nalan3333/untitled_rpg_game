@@ -114,6 +114,11 @@ int main(void) {
 
     printf("You cleared the location! Final HP: %d, DMG: %d, Coins: %d\n",
            g_player.player.hp, g_player.player.dmg, g_player.player.coins);
+
+    printf("\nThe author of this console project is Nalan3333.\n");
+    printf("Link to source code: github.com/Nalan3333/untitled_rpg_game");
+    printf("\npress any key for exit:");
+    read_choice();
     return 0;
 
 _error:
